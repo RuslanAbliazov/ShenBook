@@ -7,6 +7,7 @@ def IsPrime(num: int):
         d += 1
     return True
 
+#Gaussian criterion
 def IsPrimeGaussianNumbers(re:int, im:int):
     if re!= 0 and im != 0 and IsPrime(re**2 + im**2):
         return True
