@@ -1,5 +1,7 @@
 # import WithoutArrays
-# these code is just training for python course
+#################################################
+# these code is just training for python course #
+######################3##########################
 def get_sum_of_numerals(text: str) -> int:
     def is_numeral(char: str) -> bool:
         if len(char) == 1 and char in '0123456789':
